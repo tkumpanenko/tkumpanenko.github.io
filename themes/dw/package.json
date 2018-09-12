@@ -1,0 +1,24 @@
+{
+  "name": "danielwelington",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch static/scss -o static/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/wwwest.solution/DanielWelington.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/wwwest.solution/DanielWelington/issues"
+  },
+  "homepage": "https://gitlab.com/wwwest.solution/DanielWelington#README",
+  "devDependencies": {
+    "bootstrap": "^4.1.3",
+    "node-sass": "^4.9.3"
+  }
+}

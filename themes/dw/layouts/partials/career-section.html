@@ -1,0 +1,21 @@
+<div class="d-flex justify-content-center">
+        <div class="footer-content block-line">
+            <h2 class="title">
+               JOIN OUR MOVEMENT 
+            </h2>
+            <div class="content-text">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <ul class="carrier-list">
+        {{ range $.Site.Data.career.vacancies }}
+        <li>
+            <a href="#">{{ .vacancy }}</a>
+            <span>{{ .employer }}</span>
+        </li>
+        {{ end }}
+    </ul>

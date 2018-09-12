@@ -1,0 +1,46 @@
+<section class="thoughts-section">
+        <div class="container">
+            <h2 class="title">
+                OUR THOUGHTS
+            </h2>
+            <div class="row">
+                {{ range $.Site.Data.thoughts.articles }}
+                <div class="col-lg-4 col-md-6">
+                    <div class="card">
+                        {{ if .src }}
+                        <img class="card-img-top" src="{{ .src }}" alt="">
+                        {{ else }}
+                        <div class="card-img-top"></div>
+                        {{ end }}
+                        <div class="card-body">
+                            <div class="card-body-text">
+                                <h5 class="card-title">{{ .title }}</h5>
+                                <div class="card-text">
+                                    <p>
+                                        {{ .author }}
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card-btn-content-center card-btn-content">
+                                <span class="card-link-letter">
+                                    <i class="fab fa-medium-m"></i>
+                                </span>
+                                <div class="card-link">
+                                        <a href="#">
+                                        {{ .link}}
+                                        </a>
+                                        <span class="card-link-arrow" style="background-image: url(img/arrow.svg)"></span>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+                {{ end }}
+            </div>
+            <div class="d-flex justify-content-center thoughts-btn">
+                    <a href="" class="btn btn-lg btn-outline-secondary">
+                        see more
+                    </a>
+                </div>
+        </div>
+    </section>
