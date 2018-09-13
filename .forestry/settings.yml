@@ -7,8 +7,9 @@ sections:
 - type: directory
   path: data
   label: Data
-  create: all
+  create: none
   match: "**/*.yaml"
+  new_doc_ext: ".yaml"
 - type: directory
   path: content
   label: Pages
