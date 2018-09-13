@@ -1,16 +1,19 @@
-{{define  "main"}}
-<section class="info-section">
+{{define "main"}}
+    <section class="info-section">
         <div class="container">
             <div class="d-flex justify-content-center">
                 <div class="info-content block-line">
+                    <h1 class="title">
+                        {{ if .Title }}{{ .Title }}{{ end }}
+                    </h1>
                     <div class="content-text">
-                        {{ .Content }} 
+                        {{ .Content }}
                     </div>
                 </div>
             </div>
         </div>
-</section>
-    {{- partial "content-section.html" . -}}
-    {{- partial "thoughts-section.html" . -}}
+    </section>
+    {{- partial "content-section.html" . -}} 
+    {{- partial "thoughts-section.html" . -}} 
 {{ end }}
 

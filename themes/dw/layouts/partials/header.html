@@ -1,22 +1,26 @@
-
 <section class="main-header fixed-top">
     <div class="container">
         <div class="d-flex justify-content-center">
             <a href="/">
-                <img src="img/logo.svg" alt="" class="logo"/>
+                <img src="img/logo.svg" alt="Logo" class="logo" />
             </a>
         </div>
     </div>
 </section>
 <section class="hero" style="background-image: url(img/hero-banner.jpg)">
     <div class="container">
+
         <div class="d-flex justify-content-center">
-            <h1 class="title">
-                {{ .Title}}
-            </h1>
-            <h2 class="subtitle">
-                   
-            </h2>
+            <div class="title-block">
+                     <h1 class="title">
+                            {{ $.Site.Params.heroTitle }}
+                        </h1>
+                        <br>
+                        <h2 class="subtitle">
+                            {{ $.Site.Params.heroSubtitle }}
+                        </h2>
+            </div>
+            
         </div>
     </div>
 </section>

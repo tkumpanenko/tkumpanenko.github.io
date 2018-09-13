@@ -1,6 +1,5 @@
 +++
-title = "Open Source at Daniel Wellington"
-subtitle = "It is time to contribute back to the community"
+title = ""
 +++
 In six short years, Daniel Wellington has built a massive community of influencers and followers whose commitment and loyalty means everything. Now, we want to engage developers all over the world.
 
