@@ -2,10 +2,19 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Daniel Welington"
 copyright = "©2018"
+
 theme = "dw"
+
 [params]
+    
+    #To prevent most search engine web crawlers from indexing a page on your
+    noindex = true 
+
+    #Hero section config
     heroTitle = "Open Source at Daniel Wellington"
     heroSubtitle = "It is time to contribute back to the community"
-    heroImgSrc = "img/hero-banner.jpg"
+    heroImgSrc = "hero-banner.jpg"
+
+    #footer section config
     footerTitle = "JOIN OUR MOVEMENT"
     footerDescriptions = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
