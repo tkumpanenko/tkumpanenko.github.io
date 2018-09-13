@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://tkumpanenko.github.io/"
 languageCode = "en-us"
 title = "Daniel Welington"
 copyright = "©2018"
@@ -6,7 +6,6 @@ copyright = "©2018"
 theme = "dw"
 
 [params]
-    
     #To prevent most search engine web crawlers from indexing a page on your
     noindex = true 
 
