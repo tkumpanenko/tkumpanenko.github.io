@@ -8,7 +8,7 @@ sections:
   path: data
   label: Data
   create: all
-  match: "**/*.yml"
+  match: "**/*.yaml"
 - type: directory
   path: content
   label: Pages
