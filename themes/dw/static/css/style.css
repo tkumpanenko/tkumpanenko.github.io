@@ -6352,601 +6352,601 @@ a.text-dark:hover, a.text-dark:focus {
   font-weight: 300;
   font-style: normal; }
 
-.mercury {
+.circle.mercury {
   background-color: #ff2b2b; }
 
-.type-script {
+.circle.type-script {
   background-color: #2b7489; }
 
-.pureBasic {
+.circle.pureBasic {
   background-color: #5a6986; }
 
-.pureBasic {
+.circle.pureBasic {
   background-color: #5a6986; }
 
-.objective-cpp {
+.circle.objective-cpp {
   background-color: #6866fb; }
 
-.self {
+.circle.self {
   background-color: #0579aa; }
 
-.edn {
+.circle.edn {
   background-color: #db5855; }
 
-.newLisp {
+.circle.newLisp {
   background-color: #87AED7; }
 
-.jupyter-notebook {
+.circle.jupyter-notebook {
   background-color: #DA5B0B; }
 
-.rebol {
+.circle.rebol {
   background-color: #358a5b; }
 
-.frege {
+.circle.frege {
   background-color: #00cafe; }
 
-.dart {
+.circle.dart {
   background-color: #00B4AB; }
 
-.aspectJ {
+.circle.aspectJ {
   background-color: #a957b0; }
 
-.shell {
+.circle.shell {
   background-color: #89e051; }
 
-.web-ontology-language {
+.circle.web-ontology-language {
   background-color: #9cc9dd; }
 
-.xBase {
+.circle.xBase {
   background-color: #403a40; }
 
-.eiffel {
+.circle.eiffel {
   background-color: #946d57; }
 
-.nix {
+.circle.nix {
   background-color: #7e7eff; }
 
-.raml {
+.circle.raml {
   background-color: #77d9fb; }
 
-.mtml {
+.circle.mtml {
   background-color: #b7e1f4; }
 
-.racket {
+.circle.racket {
   background-color: #22228f; }
 
-.elixir {
+.circle.elixir {
   background-color: #6e4a7e; }
 
-.sas {
+.circle.sas {
   background-color: #B34936; }
 
-.agda {
+.circle.agda {
   background-color: #315665; }
 
-.wisp {
+.circle.wisp {
   background-color: #7582D1; }
 
-.d {
+.circle.d {
   background-color: #ba595e; }
 
-.kotlin {
+.circle.kotlin {
   background-color: #F18E33; }
 
-.opal {
+.circle.opal {
   background-color: #f7ede0; }
 
-.crystal {
+.circle.crystal {
   background-color: #776791; }
 
-.objective-c {
+.circle.objective-c {
   background-color: #438eff; }
 
-.cold-fusion-cfc {
+.circle.cold-fusion-cfc {
   background-color: #ed2cd6; }
 
-.oz {
+.circle.oz {
   background-color: #fab738; }
 
-.mirah {
+.circle.mirah {
   background-color: #c7a938; }
 
-.objective-j {
+.circle.objective-j {
   background-color: #ff0c5a; }
 
-.gosu {
+.circle.gosu {
   background-color: #82937f; }
 
-.free-marker {
+.circle.free-marker {
   background-color: #0050b2; }
 
-.ruby {
+.circle.ruby {
   background-color: #701516; }
 
-.component-pascal {
+.circle.component-pascal {
   background-color: #b0ce4e; }
 
-.arc {
+.circle.arc {
   background-color: #aa2afe; }
 
-.brainfuck {
+.circle.brainfuck {
   background-color: #2F2530; }
 
-.nit {
+.circle.nit {
   background-color: #009917; }
 
-.apl {
+.circle.apl {
   background-color: #5A8164; }
 
-.go {
+.circle.go {
   background-color: #375eab; }
 
-.visual-basic {
+.circle.visual-basic {
   background-color: #945db7; }
 
-.php {
+.circle.php {
   background-color: #4F5D95; }
 
-.cirru {
+.circle.cirru {
   background-color: #ccccff; }
 
-.sfq {
+.circle.sfq {
   background-color: #3F3F3F; }
 
-.glyph {
+.circle.glyph {
   background-color: #e4cc98; }
 
-.java {
+.circle.java {
   background-color: #b07219; }
 
-.max-script {
+.circle.max-script {
   background-color: #00a6a6; }
 
-.scala {
+.circle.scala {
   background-color: #DC322F; }
 
-.makefile {
+.circle.makefile {
   background-color: #427819; }
 
-.cold-fusion {
+.circle.cold-fusion {
   background-color: #ed2cd6; }
 
-.perl {
+.circle.perl {
   background-color: #0298c3; }
 
-.lua {
+.circle.lua {
   background-color: #000080; }
 
-.vue {
+.circle.vue {
   background-color: #2c3e50; }
 
-.verilog {
+.circle.verilog {
   background-color: #b2b7f8; }
 
-.vactor {
+.circle.vactor {
   background-color: #636746; }
 
-.haxe {
+.circle.haxe {
   background-color: #df7900; }
 
-.pure-data {
+.circle.pure-data {
   background-color: #91de79; }
 
-.forth {
+.circle.forth {
   background-color: #341708; }
 
-.red {
+.circle.red {
   background-color: #ee0000; }
 
-.hy {
+.circle.hy {
   background-color: #7790B2; }
 
-.volt {
+.circle.volt {
   background-color: #1F1F1F; }
 
-.lsl {
+.circle.lsl {
   background-color: #3d9970; }
 
-.ec {
+.circle.ec {
   background-color: #913960; }
 
-.coffee-script {
+.circle.coffee-script {
   background-color: #244776; }
 
-.html {
+.circle.html {
   background-color: #e44b23; }
 
-.lex {
+.circle.lex {
   background-color: #DBCA00; }
 
-.api-blueprint {
+.circle.api-blueprint {
   background-color: #2ACCA8; }
 
-.swift {
+.circle.swift {
   background-color: #ffac45; }
 
-.c {
+.circle.c {
   background-color: #555555; }
 
-.auto-hot-key {
+.circle.auto-hot-key {
   background-color: #6594b9; }
 
-.isabelle {
+.circle.isabelle {
   background-color: #FEFE00; }
 
-.metal {
+.circle.metal {
   background-color: #8f14e9; }
 
-.clarion {
+.circle.clarion {
   background-color: #db901e; }
 
-.json-iq {
+.circle.json-iq {
   background-color: #40d47e; }
 
-.boo {
+.circle.boo {
   background-color: #d4bec1; }
 
-.auto-it {
+.circle.auto-it {
   background-color: #1C3552; }
 
-.clojure {
+.circle.clojure {
   background-color: #db5855; }
 
-.rust {
+.circle.rust {
   background-color: #dea584; }
 
-.prolog {
+.circle.prolog {
   background-color: #74283c; }
 
-.source-awn {
+.circle.source-awn {
   background-color: #5c7611; }
 
-.ampl {
+.circle.ampl {
   background-color: #E6EFBB; }
 
-.fortran {
+.circle.fortran {
   background-color: #4d41b1; }
 
-.antlr {
+.circle.antlr {
   background-color: #9DC3FF; }
 
-.harbour {
+.circle.harbour {
   background-color: #0e60e3; }
 
-.tcl {
+.circle.tcl {
   background-color: #e4cc98; }
 
-.blitz-max {
+.circle.blitz-max {
   background-color: #cd6400; }
 
-.pig-latin {
+.circle.pig-latin {
   background-color: #fcd7de; }
 
-.lasso {
+.circle.lasso {
   background-color: #999999; }
 
-.ecl {
+.circle.ecl {
   background-color: #8a1267; }
 
-.vhdl {
+.circle.vhdl {
   background-color: #adb2cb; }
 
-.elm {
+.circle.elm {
   background-color: #60B5CC; }
 
-.propeller-spin {
+.circle.propeller-spin {
   background-color: #7fa2a7; }
 
-.x10 {
+.circle.x10 {
   background-color: #4B6BEF; }
 
-.idl {
+.circle.idl {
   background-color: #a3522f; }
 
-.ats {
+.circle.ats {
   background-color: #1ac620; }
 
-.ada {
+.circle.ada {
   background-color: #02f88c; }
 
-.unity-3d-asset {
+.circle.unity-3d-asset {
   background-color: #ab69a1; }
 
-.nu {
+.circle.nu {
   background-color: #c9df40; }
 
-.lfe {
+.circle.lfe {
   background-color: #004200; }
 
-.super-collider {
+.circle.super-collider {
   background-color: #46390b; }
 
-.oxygene {
+.circle.oxygene {
   background-color: #cdd0e3; }
 
-.asp {
+.circle.asp {
   background-color: #6a40fd; }
 
-.assembly {
+.circle.assembly {
   background-color: #6E4C13; }
 
-.gnuplot {
+.circle.gnuplot {
   background-color: #f0a9f0; }
 
-.g-flex {
+.circle.g-flex {
   background-color: #DBCA00; }
 
-.net-linx {
+.circle.net-linx {
   background-color: #0aa0ff; }
 
-.turing {
+.circle.turing {
   background-color: #45f715; }
 
-.vala {
+.circle.vala {
   background-color: #fbe5cd; }
 
-.processing {
+.circle.processing {
   background-color: #0096D8; }
 
-.arduino {
+.circle.arduino {
   background-color: #bd79d1; }
 
-.flux {
+.circle.flux {
   background-color: #88ccff; }
 
-.net-logo {
+.circle.net-logo {
   background-color: #ff6375; }
 
-.c-sharp {
+.circle.c-sharp {
   background-color: #178600; }
 
-.css {
+.circle.css {
   background-color: #563d7c; }
 
-.emacs-lisp {
+.circle.emacs-lisp {
   background-color: #c065db; }
 
-.stan {
+.circle.stan {
   background-color: #b2011d; }
 
-.salt-stack {
+.circle.salt-stack {
   background-color: #646464; }
 
-.qml {
+.circle.qml {
   background-color: #44a51c; }
 
-.pike {
+.circle.pike {
   background-color: #005390; }
 
-.lolcode {
+.circle.lolcode {
   background-color: #cc9900; }
 
-.ooc {
+.circle.ooc {
   background-color: #b0b77e; }
 
-.handlebars {
+.circle.handlebars {
   background-color: #01a9d6; }
 
-.j {
+.circle.j {
   background-color: #9EEDFF; }
 
-.mask {
+.circle.mask {
   background-color: #f97732; }
 
-.ember-script {
+.circle.ember-script {
   background-color: #FFF4F3; }
 
-.tex {
+.circle.tex {
   background-color: #3D6117; }
 
-.nemerle {
+.circle.nemerle {
   background-color: #3d3c6e; }
 
-.krl {
+.circle.krl {
   background-color: #28431f; }
 
-.ren-py {
+.circle.ren-py {
   background-color: #ff7f7f; }
 
-.unified-parallel-c {
+.circle.unified-parallel-c {
   background-color: #4e3617; }
 
-.golo {
+.circle.golo {
   background-color: #88562A; }
 
-.fancy {
+.circle.fancy {
   background-color: #7b9db4; }
 
-.o-caml {
+.circle.o-caml {
   background-color: #3be133; }
 
-.shen {
+.circle.shen {
   background-color: #120F14; }
 
-.pascal {
+.circle.pascal {
   background-color: #b0ce4e; }
 
-.f-sharp {
+.circle.f-sharp {
   background-color: #b845fc; }
 
-.puppet {
+.circle.puppet {
   background-color: #302B6D; }
 
-.action-script {
+.circle.action-script {
   background-color: #882B0F; }
 
-.diff {
+.circle.diff {
   background-color: #88dddd; }
 
-.ragel-in-ruby-host {
+.circle.ragel-in-ruby-host {
   background-color: #9d5200; }
 
-.fantom {
+.circle.fantom {
   background-color: #dbded5; }
 
-.zephir {
+.circle.zephir {
   background-color: #118f9e; }
 
-.click {
+.circle.click {
   background-color: #E4E6F3; }
 
-.small-talk {
+.circle.small-talk {
   background-color: #596706; }
 
-.dm {
+.circle.dm {
   background-color: #447265; }
 
-.ioke {
+.circle.ioke {
   background-color: #078193; }
 
-.pogo-script {
+.circle.pogo-script {
   background-color: #d80074; }
 
-.live-script {
+.circle.live-script {
   background-color: #499886; }
 
-.java-script {
+.circle.java-script {
   background-color: #f1e05a; }
 
-.vim-l {
+.circle.vim-l {
   background-color: #199f4b; }
 
-.pure-script {
+.circle.pure-script {
   background-color: #1D222D; }
 
-.abap {
+.circle.abap {
   background-color: #E8274B; }
 
-.matlab {
+.circle.matlab {
   background-color: #bb92ac; }
 
-.slash {
+.circle.slash {
   background-color: #007eff; }
 
-.r {
+.circle.r {
   background-color: #198ce7; }
 
-.erlang {
+.circle.erlang {
   background-color: #B83998; }
 
-.pan {
+.circle.pan {
   background-color: #cc0000; }
 
-.look-ml {
+.circle.look-ml {
   background-color: #652B81; }
 
-.eagle {
+.circle.eagle {
   background-color: #814C05; }
 
-.scheme {
+.circle.scheme {
   background-color: #1e4aec; }
 
-.plsql {
+.circle.plsql {
   background-color: #dad8d8; }
 
-.python {
+.circle.python {
   background-color: #3572A5; }
 
-.max {
+.circle.max {
   background-color: #c4a79c; }
 
-.common-lisp {
+.circle.common-lisp {
   background-color: #3fb68b; }
 
-.latte {
+.circle.latte {
   background-color: #A8FF97; }
 
-.x-query {
+.circle.x-query {
   background-color: #5232e7; }
 
-.omgrofl {
+.circle.omgrofl {
   background-color: #cabbff; }
 
-.xc {
+.circle.xc {
   background-color: #99DA07; }
 
-.nimrod {
+.circle.nimrod {
   background-color: #37775b; }
 
-.system-verilog {
+.circle.system-verilog {
   background-color: #DAE1C2; }
 
-.chapel {
+.circle.chapel {
   background-color: #8dc63f; }
 
-.groovy {
+.circle.groovy {
   background-color: #e69f56; }
 
-.dylan {
+.circle.dylan {
   background-color: #6c616e; }
 
-.e {
+.circle.e {
   background-color: #ccce35; }
 
-.parrot {
+.circle.parrot {
   background-color: #f3ca0a; }
 
-.grammatical-framework {
+.circle.grammatical-framework {
   background-color: #79aa7a; }
 
-.game-maker-language {
+.circle.game-maker-language {
   background-color: #8fb200; }
 
-.papyrus {
+.circle.papyrus {
   background-color: #6600cc; }
 
-.netLinx-p-erb {
+.circle.netLinx-p-erb {
   background-color: #747faa; }
 
-.clean {
+.circle.clean {
   background-color: #3F85AF; }
 
-.alloy {
+.circle.alloy {
   background-color: #64C800; }
 
-.squirrel {
+.circle.squirrel {
   background-color: #800000; }
 
-.pawl {
+.circle.pawl {
   background-color: #dbb284; }
 
-.unreal-script {
+.circle.unreal-script {
   background-color: #a54c4d; }
 
-.standard-ml {
+.circle.standard-ml {
   background-color: #dc566d; }
 
-.slim {
+.circle.slim {
   background-color: #ff8f77; }
 
-.perl6 {
+.circle.perl6 {
   background-color: #0000fb; }
 
-.julia {
+.circle.julia {
   background-color: #a270ba; }
 
-.haskell {
+.circle.haskell {
   background-color: #29b544; }
 
-.ncl {
+.circle.ncl {
   background-color: #28431f; }
 
-.ioo {
+.circle.ioo {
   background-color: #a9188d; }
 
-.rouge {
+.circle.rouge {
   background-color: #cc0088; }
 
-.cpp {
+.circle.cpp {
   background-color: #f34b7d; }
 
-.ags-script {
+.circle.ags-script {
   background-color: #B9D9FF; }
 
-.dogescript {
+.circle.dogescript {
   background-color: #cca760; }
 
-.nes {
+.circle.nes {
   background-color: #94B0C7; }
 
 .main-header {
@@ -6967,6 +6967,9 @@ a.text-dark:hover, a.text-dark:focus {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative; }
+  .hero > div > .title {
+    color: white;
+    opacity: 1; }
   .hero::after {
     content: "";
     display: block;
@@ -7020,6 +7023,8 @@ a.text-dark:hover, a.text-dark:focus {
   border-radius: 2px !important;
   min-height: 225px;
   margin: 10px 0; }
+  .card.element-item {
+    float: left; }
 
 .card-body {
   display: -webkit-box;
@@ -7105,7 +7110,7 @@ a.text-dark:hover, a.text-dark:focus {
       background-size: cover; }
 
 .card-btn-content-center {
-  isplay: flex;
+  display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center; }

@@ -1,4 +1,10 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
-theme = "dw"
+title = "Daniel Welington"
+[params]
+    logoSrc = "../../static/img/logo.svg"
+    heroImgSrc = "../../static/img/hero-banner.jpg"
+    footerInfoText = "&copy;2018"
+    footerTitle = "JOIN OUR MOVEMENT"
+    footerDescriptions = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    theme = "dw"

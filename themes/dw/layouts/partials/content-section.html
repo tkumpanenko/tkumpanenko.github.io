@@ -1,63 +1,64 @@
 <section class="items-section block-line">
         <div class="container">
-                <ul class="button-block">
+                <ul id="filters" class="button-block">
                         <li>
-                            <a href="" class="btn btn-sm btn-outline-secondary active">
+                            <a href="" class="btn btn-sm btn-outline-secondary active" data-filter="*">
                                 All
                             </a>
                         </li>
                         <li>
-                            <a href="" class="btn btn-sm btn-outline-secondary">
+                            <a href="" class="btn btn-sm btn-outline-secondary" data-filter=".java-script">
                                 JavaScript
                             </a>
                         </li>
                         <li>
-                            <a href="" class="btn btn-sm btn-outline-secondary">
+                            <a href="" class="btn btn-sm btn-outline-secondary" data-filter=".go">
                                 Go
                             </a>
                         </li>
                         <li>
-                            <a href="" class="btn btn-sm btn-outline-secondary">
+                            <a href="" class="btn btn-sm btn-outline-secondary" data-filter=".shell">
                                 Shell
                             </a>
                         </li>
-                </ul>
-                <div class="row">
-                    {{ range $.Site.Data.content.articles }}
-                    <div class="col-lg-4 col-md-6">
-                            <div class="card">
-                                <div class="card-body">
-                                    <div class="card-body-text">
-                                        <h4 class="card-title">
-                                           {{ .title }}
-                                        </h4>
-                                        <div class="card-text">
-                                            <p>
-                                               {{ .content }}
-                                            </p>
+                    </ul>
+                
+                <div class="row grid">
+                        {{ range $.Site.Data.content.articles }}
+                        <div class="col-lg-4 col-md-6 element-item {{ .languageColors }}">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="card-body-text">
+                                            <h4 class="card-title">
+                                               {{ .title }}
+                                            </h4>
+                                            <div class="card-text">
+                                                <p>
+                                                   {{ .content }}
+                                                </p>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="card-bottom-content">
-                                        <div class="left-content">
-                                            <span class="circle {{ .languageColors }}"></span>
-                                            <p>{{ .mark }}</p>
-                                        </div>
-                                        <div class="card-btn-content">
-                                            <span class="card-link-letter">
-                                                <i class="fab fa-medium-m"></i>
-                                            </span>
-                                            <div class="card-link">
-                                                <a href="#">
-                                                Read more
-                                                </a>
-                                                <span class="card-link-arrow" style="background-image: url(img/arrow.svg)"></span>
+                                        <div class="card-bottom-content">
+                                            <div class="left-content">
+                                                <span class="circle {{ .languageColors }}"></span>
+                                                <p>{{ .mark }}</p>
+                                            </div>
+                                            <div class="card-btn-content">
+                                                <span class="card-link-letter">
+                                                    <i class="fab fa-medium-m"></i>
+                                                </span>
+                                                <div class="card-link">
+                                                    <a href={{ .link }} target="_blank">
+                                                    Read more {{ .Site.Params.footerTitle }}
+                                                    </a>
+                                                    <span class="card-link-arrow" style="background-image: url(img/arrow.svg)"></span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    {{ end }} 
+                        {{ end }}    
                 </div>
         </div>
     </section>

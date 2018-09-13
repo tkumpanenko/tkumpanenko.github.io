@@ -5,6 +5,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    > div >.title {
+        color: white;
+        opacity: 1;
+    }
     &::after{
         content:"";
         display: block;

@@ -1,8 +1,16 @@
 {{define  "main"}}
-<div>
-    {{ .Content }}
+<section class="info-section">
+        <div class="container">
+            <div class="d-flex justify-content-center">
+                <div class="info-content block-line">
+                    <div class="content-text">
+                        {{ .Content }} 
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
     {{- partial "content-section.html" . -}}
     {{- partial "thoughts-section.html" . -}}
-</div>
 {{ end }}
 
