@@ -1,0 +1,119 @@
+.card{
+    -webkit-box-shadow: 0 1px 7px rgba(0, 0, 0, 0.19), 0 3px 3px rgba(0, 0, 0, 0.13);
+            box-shadow: 0 1px 7px rgba(0, 0, 0, 0.19), 0 3px 3px rgba(0, 0, 0, 0.13);
+    border-radius: 2px !important;
+    min-height: 225px;
+    margin:10px 0;
+    transition: .7s all;
+    &:hover {
+
+      text-decoration: none;
+      box-shadow: 0 10px 20px 0 rgba(0,0,0,0.13), 0 3px 9px 0 rgba(0,0,0,0.19);
+    }
+    &.element-item {
+        float: left;
+    }
+} 
+
+.card-body{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    .card-title{
+        font-size: $font-size-content;
+        line-height: 20.8px;
+        text-transform: uppercase;
+        letter-spacing: 3.2px;
+        text-align: center;
+    }
+    .card-text{
+        font-size: $font-size-content-small;
+        line-height: 22px;
+        letter-spacing: 0.15px;
+        text-align: center;
+    }
+}
+
+.card-bottom-content{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack:justify;
+        -ms-flex-pack:justify;
+            justify-content:space-between;
+    .left-content{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        font-size: $font-size-content-small;;
+        line-height: 22px;
+        letter-spacing: 0.15px;
+        .circle{
+            width:10px;
+            height: 10px;
+            display: block;
+            border-radius: 50%;
+            margin:6px 9px 6px 0;
+        }
+        p{
+            margin: 0;
+        }
+    }
+}
+
+.card-btn-content{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    .card-link-letter{
+        display: block;
+        color:#ffffff;
+        width:18px;
+        height: 18px;
+        font-size: 13px;
+        margin:7px 7px 0 0;
+        background-color:$primary-color;
+        text-align: center;
+    }
+    .card-link{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        border-bottom:1px solid $primary-color;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+        a{
+            font-size: $font-size-content-small;
+            letter-spacing: 0.15px;
+            display: block;
+            text-decoration: none;
+        }
+        .card-link-arrow{
+          background: url(../img/arrow.svg) no-repeat center center;
+            width:10px;
+            height: 10px;
+            display: block;
+            position: relative;
+            bottom: -4px;
+            right: -2px;
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+        }
+    }
+}
+
+.card-btn-content-center{
+    display: flex;
+    -webkit-box-pack:center;
+        -ms-flex-pack:center;
+            justify-content:center;
+}
