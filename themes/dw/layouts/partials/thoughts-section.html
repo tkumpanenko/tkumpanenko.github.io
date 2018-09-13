@@ -6,7 +6,7 @@
         <div class="row">
             {{ range $.Site.Data.thoughts.articles }}
             <div class="col-lg-4 col-md-6">
-                <div class="card">
+                <a class="card" href="{{ .link}}" target="_blank">
                     {{ if .src }}
                     <img class="card-img-top" src="{{ .src }}" alt="">
                     {{ end }}
@@ -24,14 +24,12 @@
                                 <i class="fab fa-medium-m"></i>
                             </span>
                             <div class="card-link">
-                                <a href={{ .link}} target="_blank">
-                                    Read more
-                                </a>
-                                <span class="card-link-arrow" style="background-image: url(img/arrow.svg)"></span>
+                                Read more
+                                <span class="card-link-arrow"></span>
                             </div>
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
             {{ end }}
         </div>

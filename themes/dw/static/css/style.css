@@ -6950,35 +6950,53 @@ a.text-dark:hover, a.text-dark:focus {
   background-color: #94B0C7; }
 
 .main-header {
-  padding: 27px 0;
-  background-color: rgba(0, 8, 28, 0.9); }
+  padding: 25px 0;
+  background-color: rgba(0, 8, 28, 0.9);
+  text-align: center; }
   .main-header a {
-    display: block;
-    max-width: 182px;
-    height: 7px; }
+    display: inline-block;
+    max-width: 180px; }
     .main-header a .logo {
       width: 100%;
       display: block; }
 
 .hero {
-  min-height: 440px;
-  margin-top: 60px;
+  min-height: 500px;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative; }
+  position: relative;
+  display: flex;
+  flex-direction: row; }
+  .hero > .container {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
   .hero .title-block {
     color: #ffffff !important;
     text-align: center;
-    position: absolute;
-    line-height: 1.2;
-    top: 30%; }
+    z-index: 5;
+    max-width: 575px; }
     .hero .title-block .title {
-      font-size: 46px; }
-    .hero .title-block .subtitle {
       font-size: 24px;
+      line-height: 32px; }
+      @media (min-width: 576px) {
+        .hero .title-block .title {
+          font-size: 46px;
+          line-height: 1.5; } }
+    .hero .title-block .sub-title {
+      margin-top: 20px;
+      font-size: 20px;
+      line-height: 26px;
       letter-spacing: 4.8px;
       text-transform: uppercase; }
+      @media (min-width: 576px) {
+        .hero .title-block .sub-title {
+          margin-top: 32px;
+          font-size: 24px;
+          line-height: 32px;
+          padding-left: 25px;
+          padding-right: 25px; } }
   .hero::after {
     content: "";
     display: block;
@@ -6987,7 +7005,8 @@ a.text-dark:hover, a.text-dark:focus {
     position: absolute;
     top: 0;
     background-color: #000000;
-    opacity: .5; }
+    opacity: .5;
+    z-index: 1; }
 
 .info-section {
   padding-top: 55px; }
@@ -7014,11 +7033,12 @@ a.text-dark:hover, a.text-dark:focus {
 
 .button-block {
   display: flex;
+  flex-wrap: wrap;
   margin: 0;
-  padding: 0 0 20px 0; }
+  padding: 0 0 13px 0; }
   .button-block li {
     list-style: none;
-    margin: 0 3px 0 7px; }
+    margin: 0 3px 7px 7px; }
 
 .thoughts-section {
   padding-bottom: 60px; }
@@ -7031,7 +7051,11 @@ a.text-dark:hover, a.text-dark:focus {
   box-shadow: 0 1px 7px rgba(0, 0, 0, 0.19), 0 3px 3px rgba(0, 0, 0, 0.13);
   border-radius: 2px !important;
   min-height: 225px;
-  margin: 10px 0; }
+  margin: 10px 0;
+  transition: .7s all; }
+  .card:hover {
+    text-decoration: none;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.13), 0 3px 9px 0 rgba(0, 0, 0, 0.19); }
   .card.element-item {
     float: left; }
 
@@ -7088,8 +7112,8 @@ a.text-dark:hover, a.text-dark:focus {
   .card-btn-content .card-link-letter {
     display: block;
     color: #ffffff;
-    width: 17px;
-    height: 16px;
+    width: 18px;
+    height: 18px;
     font-size: 13px;
     margin: 7px 7px 0 0;
     background-color: #00081c;
@@ -7108,6 +7132,7 @@ a.text-dark:hover, a.text-dark:focus {
       display: block;
       text-decoration: none; }
     .card-btn-content .card-link .card-link-arrow {
+      background: url(../img/arrow.svg) no-repeat center center;
       width: 10px;
       height: 10px;
       display: block;
@@ -7123,14 +7148,6 @@ a.text-dark:hover, a.text-dark:focus {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center; }
-
-.main-footer {
-  background-color: #00081c;
-  color: #ffffff;
-  padding: 55px 0 30px; }
-  @media screen and (max-width: 568px) {
-    .main-footer .title {
-      font-size: 20px; } }
 
 .carrier-list {
   margin: 0;
@@ -7170,6 +7187,14 @@ a.text-dark:hover, a.text-dark:focus {
       @media screen and (max-width: 568px) {
         .carrier-list li span {
           font-size: 14px; } }
+
+.main-footer {
+  background-color: #00081c;
+  color: #ffffff;
+  padding: 55px 0 30px; }
+  @media screen and (max-width: 568px) {
+    .main-footer .title {
+      font-size: 20px; } }
 
 .footer-info {
   padding-top: 35px;
