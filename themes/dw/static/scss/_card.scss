@@ -10,6 +10,20 @@
 		box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.13), 0 3px 9px 0 rgba(0, 0, 0, 0.19);
 	}
 
+	.card-img {
+		min-height: 150px;
+		background-position: center center;
+		background-size: cover;
+	}
+
+	.dummy {
+		display: flex;
+		background: $primary-color;
+		justify-content: center;
+		align-items: center;
+		min-height: 150px;
+	}
+
 	&.element-item {
 		float: left;
 	}
@@ -71,7 +85,7 @@
 		width: 18px;
 
 		display: block;
-		background: url(../img/medium.svg) no-repeat center center;
+		background: url("../img/medium.svg") no-repeat center center;
 		background-size: 18px auto;
 	}
 

@@ -5,5 +5,11 @@
   <meta name="robots" content="noindex">
   <meta name="googlebot" content="noindex">
 {{ end }}
-<link rel="stylesheet" href="css/style.min.css">
+
+{{ if not .Site.IsServer }}
+  <link rel="stylesheet" href="css/style.min.css">
+{{ else }}
+  <link rel="stylesheet" href="css/style.css">
+{{ end }}
+
 

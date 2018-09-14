@@ -5,6 +5,8 @@ copyright = "©2018"
 
 theme = "dw"
 
+HUGO_ENV = "production"
+
 [params]
     #To prevent most search engine web crawlers from indexing a page on your
     noindex = true 

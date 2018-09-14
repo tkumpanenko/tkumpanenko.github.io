@@ -7055,6 +7055,16 @@ a.text-dark:hover, a.text-dark:focus {
   .card:hover {
     text-decoration: none;
     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.13), 0 3px 9px 0 rgba(0, 0, 0, 0.19); }
+  .card .card-img {
+    min-height: 150px;
+    background-position: center center;
+    background-size: cover; }
+  .card .dummy {
+    background: #00081c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 150px; }
   .card.element-item {
     float: left; }
 
@@ -7098,7 +7108,7 @@ a.text-dark:hover, a.text-dark:focus {
     height: 18px;
     width: 18px;
     display: block;
-    background: url("../img/medium.svg") no-repeat center center;
+    background: url(../img/medium.svg) no-repeat center center;
     background-size: 18px auto; }
   .card-btn-content .card-link {
     display: flex;
