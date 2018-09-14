@@ -1,0 +1,95 @@
+{
+  "extends": "stylelint-config-sass-guidelines",
+  "rules": {
+    "selector-type-no-unknown": null,
+    "indentation": "tab",
+    "max-nesting-depth": 4,
+    "selector-max-compound-selectors": 4,
+    "string-quotes": "double",
+    "no-missing-end-of-source-newline": null,
+    "declaration-property-value-blacklist": null,
+    "selector-no-qualifying-type": null,
+    "selector-pseudo-element-colon-notation": "double",
+    "selector-pseudo-element-no-unknown": [ true, {
+      "ignorePseudoElements": ["ng-deep"]
+    } ],
+    "property-blacklist": [
+      "flex-grow",
+      "flex-shrink"
+    ],
+    "order/order": [
+      "at-rules",
+      "dollar-variables",
+      "custom-properties",
+      "declarations",
+      "rules"
+    ],
+    "order/properties-alphabetical-order": null,
+    "order/properties-order": [
+      [
+        {
+          "emptyLineBefore": "always",
+          "properties": [
+            "font-family",
+            "font-size",
+            "font-weight",
+            "line-height",
+            "text-align"
+          ]
+        },
+        {
+          "emptyLineBefore": "always",
+          "properties": [
+            "position",
+            "bottom",
+            "left",
+            "right",
+            "top",
+            "z-index"
+          ]
+        },
+        {
+          "emptyLineBefore": "always",
+          "properties": [
+            "margin",
+            "margin-top",
+            "margin-right",
+            "margin-bottom",
+            "margin-left",
+            "padding",
+            "padding-top",
+            "padding-right",
+            "padding-bottom",
+            "padding-left",
+            "height",
+            "width",
+            "/^max-/",
+            "/^min-/"
+          ]
+        },
+        {
+          "emptyLineBefore": "always",
+          "properties": [
+            "box-sizing",
+            "display",
+            "/^flex/",
+            "/^overflow/"
+          ]
+        },
+        {
+          "emptyLineBefore": "always",
+          "properties": [
+            "/^border/",
+            "color",
+            "/^background/",
+            "opacity"
+          ]
+        }
+      ]
+    ]
+  },
+  "plugins": [
+    "stylelint-scss",
+    "stylelint-order"
+  ]
+}

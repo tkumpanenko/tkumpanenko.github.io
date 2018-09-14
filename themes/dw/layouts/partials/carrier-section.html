@@ -1,7 +1,7 @@
 <ul class="carrier-list">
     {{ range $.Site.Data.carrier.vacancies }}
     <li>
-        <a href="{{ .link }}">{{ .vacancy }}</a>
+        <a href="{{ .link }}" target="_blank">{{ .vacancy }}</a>
         <span>{{ .employer }}</span>
     </li>
     {{ end }}
