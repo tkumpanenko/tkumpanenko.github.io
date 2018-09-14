@@ -13,7 +13,7 @@
       </li>
       {{ range .Scratch.Get "categories" | uniq }}
       <li>
-        <a href="#" class="btn btn-sm btn-outline-secondary" data-filter=".{{ . }}">
+        <a href="#" class="btn btn-sm btn-outline-secondary" data-filter=".{{ . | lower }}">
           {{ . }}
         </a>
       </li>
@@ -23,35 +23,43 @@
 
     <div class="row grid">
       {{ range $.Site.Data.content.articles }}
-      <div class="col-lg-4 col-md-6 element-item {{ .language }}">
+      <div class="col-lg-4 col-md-6 element-item {{ .language | lower }}">
         <!--  card -->
-        <a class="card" href="{{ .link }}" target="_blank">
+        <div class="card" target="_blank">
           <div class="card-body">
             <div class="card-body-text">
               <h4 class="card-title">
-                {{ .title }}
+                <a href="{{ .github }}">{{ .title }}</a>
               </h4>
               <div class="card-text">
                 <p>
-                  {{ .content }}
+                  <a href="{{ .github }}">{{ .content }}</a>
                 </p>
               </div>
             </div>
             <div class="card-bottom-content">
               <div class="left-content">
-                <span class="circle {{ .language }}"></span>
-                <p>{{ .mark }}</p>
+                <span class="circle {{ .language | lower }}"></span>
+                <p>{{ .language }}</p>
               </div>
+              {{ if .medium }}
               <div class="card-btn-content">
-                <span class="card-link-letter"></span>
-                <div class="card-link">
-                  Read more
-                  <span class="card-link-arrow"></span>
-                </div>
+                <a href="{{ .medium }}">
+                  <svg class="card-link-letter" viewBox="0 0 24 24">
+                    <use xlink:href="#medium"></use>
+                  </svg>
+                  <div class="card-link">
+                    Read more
+                    <svg class="card-link-arrow" viewBox="0 0 9 9">
+                      <use xlink:href="#arrow"></use>
+                    </svg>
+                  </div>
+                </a>
               </div>
+              {{ end }}
             </div>
           </div>
-        </a>
+        </div>
         <!--  .card -->
       </div>
       {{ end }}

@@ -16,6 +16,8 @@ HUGO_ENV = "production"
     heroSubtitle = "It is time to contribute back to the community"
     heroImgSrc = "hero-banner.jpg"
 
+    #see more button 
+    seeMoreHref = "https://github.com/dwtechnologies"
+
     #footer section config
     footerTitle = "JOIN OUR MOVEMENT"
-    footerDescriptions = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."

@@ -9,6 +9,7 @@
     "no-missing-end-of-source-newline": null,
     "declaration-property-value-blacklist": null,
     "selector-no-qualifying-type": null,
+    "scss/at-extend-no-missing-placeholder": null,
     "selector-pseudo-element-colon-notation": "double",
     "selector-pseudo-element-no-unknown": [ true, {
       "ignorePseudoElements": ["ng-deep"]
