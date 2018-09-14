@@ -1,15 +1,16 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>{{.Site.Title}}</title>
+
 {{ if $.Site.Params.noindex }}
   <meta name="robots" content="noindex">
   <meta name="googlebot" content="noindex">
 {{ end }}
 
-{{ if not .Site.IsServer }}
-  <link rel="stylesheet" href="css/style.min.css">
-{{ else }}
+{{ if .Site.IsServer }}
   <link rel="stylesheet" href="css/style.css">
+{{ else }}
+  <link rel="stylesheet" href="css/style.min.css">
 {{ end }}
 
 
