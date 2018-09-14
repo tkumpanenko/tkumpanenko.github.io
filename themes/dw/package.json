@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "stylefmt": "node node_modules/stylefmt/bin/cli --recursive \"static/scss/**/*.scss\"",
-    "scss": "node-sass --watch static/scss -o static/css",
+    "css:watch": "node-sass --watch static/scss -o static/css",
+    "css:build": "postcss -u autoprefixer -b 'last 2 versions' < \"./static/css/style.css\" | postcss --use cssnano > \"./static/css/style.min.css\"",
     "stylelint": "stylelint \"static/scss/**/*.scss\""
   },
   "repository": {
@@ -26,7 +26,10 @@
     "stylelint": "^9.1.1",
     "stylelint-config-sass-guidelines": "^5.0.0",
     "stylelint-order": "^0.8.1",
-    "stylelint-scss": "^2.5.0"
+    "stylelint-scss": "^2.5.0",
+    "autoprefixer": "^6.3.1",
+    "postcss-cli": "^2.5.0",
+    "cssnano": "^3.5.2"
   },
   "dependencies": {
     "isotope-cells-by-row": "^1.1.4"
