@@ -1,0 +1,27 @@
+{
+  "name": "danielwelington",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "request": "^2.88.0",
+    "write-yaml": "^1.0.0"
+  },
+  "scripts": {
+    "jobs:fetch": "node _extensions/fetch_carier_data.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/wwwest.solution/DanielWelington.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/wwwest.solution/DanielWelington/issues"
+  },
+  "homepage": "https://gitlab.com/wwwest.solution/DanielWelington#README"
+}

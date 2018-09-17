@@ -1,19 +1,35 @@
 vacancies:
--   vacancy: "IT PROJECT MANAGER"
-    employer: "Stockholm -  Tech"
-    link: "#"
--   vacancy: "Senior backend developer, Node.js and AWS"
-    employer: "Stockholm -  Tech"
-    link: "#"
--   vacancy: "IT Support Specialist"
-    employer: "Stockholm -  Tech"
-    link: "#"
--   vacancy: "Senior Magento-2 Developer"
-    employer: "Stockholm -  Tech"
-    link: "#"
--   vacancy: "Senior Frontend Developer, React and AWS"
-    employer: "Stockholm -  Tech"
-    link: "#"
--   vacancy: "Senior Backend Developer, PHP, Laravel and AWS"
-    employer: "Stockholm -  Tech"
-    link: "#"
+  - href: >-
+      https://careerseurope.danielwellington.com//jobs/120521-senior-backend-developer-node-js-and-aws
+    title: 'Senior Backend Developer, Node.js and AWS'
+    location: Tech – Stockholm
+  - href: >-
+      https://careerseurope.danielwellington.com//jobs/119524-it-support-specialist
+    title: IT Support Specialist
+    location: Tech – Stockholm
+  - href: >-
+      https://careerseurope.danielwellington.com//jobs/118760-senior-magento-2-developer
+    title: Senior Magento-2 developer
+    location: Tech – Stockholm
+  - href: >-
+      https://careerseurope.danielwellington.com//jobs/115792-senior-frontend-developer-react
+    title: 'Senior Frontend Developer, React'
+    location: Tech – Stockholm
+  - href: >-
+      https://careerseurope.danielwellington.com//jobs/104614-ui-interaction-designer
+    title: UI & Interaction Designer
+    location: Tech – Stockholm
+  - href: >-
+      https://careerseurope.danielwellington.com//jobs/103551-tech-team-lead-for-e-commerce
+    title: Tech Team Lead for E-Commerce
+    location: Tech – Stockholm
+  - href: 'https://careerseurope.danielwellington.com//jobs/101836-devops-engineer'
+    title: DevOps Engineer
+    location: Tech – Stockholm
+  - href: 'https://careerseurope.danielwellington.com//jobs/100702-data-engineer'
+    title: Data Engineer
+    location: Tech – Stockholm
+  - href: >-
+      https://careerseurope.danielwellington.com//jobs/97755-senior-backend-developer-php-laravel-and-aws
+    title: 'Senior Backend Developer, PHP, Laravel and AWS'
+    location: Tech – Stockholm
