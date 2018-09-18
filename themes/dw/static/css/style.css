@@ -4279,18 +4279,18 @@ svg {
   .card .card-img,
   .card .dummy {
     position: relative; }
-    .card .card-img:after,
-    .card .dummy:after {
-      content: '';
+    .card .card-img::after,
+    .card .dummy::after {
       position: absolute;
-      top: 0;
       left: 0;
-      width: 100%;
+      top: 0;
       height: 100%;
+      width: 100%;
+      content: "";
       background: rgba(0, 0, 0, 0);
       transition: background 0.1s; }
-    .card .card-img:hover:after,
-    .card .dummy:hover:after {
+    .card .card-img:hover::after,
+    .card .dummy:hover::after {
       background: rgba(0, 0, 0, 0.5); }
   .card .dummy {
     display: flex;
@@ -4309,10 +4309,12 @@ svg {
     font-size: 16px;
     line-height: 20.8px;
     text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 3.2px;
     margin-bottom: 0;
-    padding-bottom: 0.75rem; }
+    padding-bottom: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 3.2px; }
+  .card-body .card-body-text a {
+    display: block; }
   .card-body .card-text {
     font-size: 14px;
     line-height: 22px;

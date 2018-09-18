@@ -63,6 +63,10 @@
 		letter-spacing: 3.2px;
 	}
 
+	.card-body-text a {
+		display: block;
+	}
+
 	.card-text {
 		font-size: $font-size-content-small;
 		line-height: 22px;
