@@ -2,8 +2,10 @@
 <html lang="en">
     <head>
         {{- partial "head.html" . -}}
+        {{- partial "ga-head.html" . -}}
     </head>
     <body>
+        {{- partial "ga-after-body.html" . -}}
         {{- partial "header.html" . -}}
         {{- block "main" . }}{{- end }}
         {{- partial "footer.html" . -}}
