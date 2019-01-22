@@ -6,6 +6,7 @@ theme = "dw"
 HUGO_ENV = "production"
 publishdir = "./"
 
+
 [params]
     #To prevent most search engine web crawlers from indexing a page on your
     # noindex = true 
@@ -15,8 +16,14 @@ publishdir = "./"
     heroSubtitle = "It is time to contribute back to the community"
     heroImgSrc = "hero-banner.jpg"
 
+    #out thougths
+    our_thougt_limit = 6
     #see more button 
     seeMoreHref = "https://github.com/dwtechnologies"
+
+    #external article
+    external_article_limit = 3
+    seeMoreExternalHref = "https://github.com/dwtechnologies?external"
 
     #footer section config
     footerTitle = "JOIN OUR MOVEMENT"

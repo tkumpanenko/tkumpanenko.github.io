@@ -1,10 +1,10 @@
-<section class="items-section block-line">
+<section class="thoughts-section">
   <div class="container">
     <h2 class="title">
-      OUR THOUGHTS
+      EXTERNAL ARTICLES
     </h2>
     <div class="row">
-      {{ range first $.Site.Params.our_thougt_limit $.Site.Data.thoughts.articles }}
+      {{ range first $.Site.Params.external_article_limit $.Site.Data.external.articles }}
       <div class="col-lg-4 col-md-6">
         <div class="card" target="_blank">
           {{ if eq .src ""}}
@@ -44,7 +44,7 @@
       {{ end }}
     </div>
     <div class="d-flex justify-content-center thoughts-btn">
-      <a href="{{$.Site.Params.seeMoreHref }}" class="btn btn-lg btn-outline-secondary" target="_blank">
+      <a href="{{$.Site.Params.seeMoreExternalHref }}" class="btn btn-lg btn-outline-secondary" target="_blank">
         See more 
         <svg class="arrow" viewBox="0 0 9 9">
           <use xlink:href="#arrow"></use>
