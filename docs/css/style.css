@@ -4468,30 +4468,30 @@ svg {
 .thoughts-btn {
   padding-top: 34px; }
 
-.carrier-list {
+.career-list {
   margin: 0;
   padding: 48px 0 0; }
-  .carrier-list li {
+  .career-list li {
     font-size: 16px;
     padding: 12.5px 0;
     display: flex;
     list-style: none;
     justify-content: space-between; }
     @media screen and (max-width: 768px) {
-      .carrier-list li {
+      .career-list li {
         justify-content: flex-start;
         flex-direction: column; } }
-    .carrier-list li a {
+    .career-list li a {
       line-height: 20.8px;
       color: #fff;
       text-transform: uppercase;
       letter-spacing: 3.2px; }
-    .carrier-list li span {
+    .career-list li span {
       line-height: 24px;
       letter-spacing: 0.15px;
       border-bottom: 1px solid transparent; }
       @media screen and (max-width: 568px) {
-        .carrier-list li span {
+        .career-list li span {
           font-size: 14px; } }
 
 .main-footer {

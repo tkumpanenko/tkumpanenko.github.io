@@ -17,7 +17,7 @@ publishdir = "./"
     heroImgSrc = "hero-banner.jpg"
 
     #out thougths
-    our_thougt_limit = 6
+    our_thought_limit = 6   
     #see more button 
     seeMoreHref = "https://github.com/dwtechnologies"
 

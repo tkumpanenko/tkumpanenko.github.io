@@ -24,14 +24,14 @@ $(function () {
     dataType: "xml",
     success: function (data) {
       if ($(data).find("item").length > 0) {
-        var html = '<ul class="carrier-list">';
+        var html = '<ul class="career-list">';
         $(data).find("item").each(function () { // or "item" or whatever suits your feed
           var el = $(this);
           html += '<li><a href="'+el.find("link").text()+'" target="_blank">'+el.find("title").text()+'</a>';
           html += '</li>';
         });
         html += '</ul>';
-        $('#career-list').html(html);
+        $('#js--career-list').html(html);
       } else {
         $('.js--empty-job-list').hide();
       }

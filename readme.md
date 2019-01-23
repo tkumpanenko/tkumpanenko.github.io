@@ -1,4 +1,4 @@
-## Carrier list scrapper
+## career list scrapper
 ---
 
 ##### Installation 
@@ -6,7 +6,7 @@ Scrapper requires some list of dependencies. Don't forget to install it before u
 
 ##### Usage
 ```npm run jobs:fetch``` Done!
-By default data will be saved into ```./data/carrier.yaml``` file, but you can easy modify 
+By default data will be saved into ```./data/career.yaml``` file, but you can easy modify 
 
 
 Fill free to modify current script  `_extensions/fetch_carier_data.js`
@@ -20,7 +20,7 @@ var config = {
   baseUrlForJobs: "https://careerseurope.danielwellington.com/",
 
   //destination file
-  dataFilePath: "./data/carrier.yaml",
+  dataFilePath: "./data/career.yaml",
 
   //sector to find proper data
   selector: ".jobs-section .jobs-section-inner .jobs li"

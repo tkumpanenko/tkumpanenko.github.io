@@ -4,7 +4,7 @@
       OUR THOUGHTS
     </h2>
     <div class="row">
-      {{ range first $.Site.Params.our_thougt_limit $.Site.Data.thoughts.articles }}
+      {{ range first $.Site.Params.our_thought_limit $.Site.Data.thoughts.articles }}
       <div class="col-lg-4 col-md-6">
         <div class="card" target="_blank">
           {{ if eq .src ""}}
